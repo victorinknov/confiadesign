@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Cinecstasy - Compre Ingressos!</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
+        <!-- Fonts, FontAwesome and Favicon -->
+        <link rel="icon" href="images/essentials/favicon.png">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/e801340f1a.js" crossorigin="anonymous"></script>
+        <!-- Frameworks -->
+        <link href="css/public/bootstrap.css" rel="stylesheet">
+        <link href="css/public/swiper.css" rel="stylesheet">
+        <link href="css/public/magnific-popup.css" rel="stylesheet">
+        <!-- General Stylesheet -->
+        <link href="css/core/styles.css" rel="stylesheet">
+        <!-- Components -->
+        <link href="css/components/preloader.css" rel="stylesheet">
+        <link href="css/components/header.css" rel="stylesheet">
+        <link href="css/components/footer.css" rel="stylesheet">
+        <link href="css/components/navbar.css" rel="stylesheet">
+    </head>
+    <body data-spy="scroll" data-target=".fixed-top">
+        <!-- Preloader -->
+        <div class="spinner-wrapper">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div> 
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-md navbar-dark navbar-custom fixed-top">
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image" href="index.html"><img src="images/essentials/logo.svg" class="logo" alt="alternative"></a> 
+            <!-- Mobile Menu Toggle Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-awesome fas fa-bars"></span>
+                <span class="navbar-toggler-awesome fas fa-times"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#header">INÍCIO <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#details">RECURSOS</a>
+                    </li>
+                    <!-- Dropdown Menu -->          
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle page-scroll" id="navbarDropdown" role="button" aria-haspopup="true" aria-expanded="false">ADMIN</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="dashboard.html"><span class="item-text">Já sou membro</span></a>
+                            <div class="dropdown-items-divide-hr"></div>
+                            <a class="dropdown-item" href="cadastrar-cinema.html"><span class="item-text">Cadastrar cinema</span></a>
+                            <div class="dropdown-items-divide-hr"></div>
+                            <a class="dropdown-item" href="cadastrar-snack.html"><span class="item-text">Cadastrar snackbar</span></a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="#contact">CONTATO</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Header -->
+        <header id="header" class="header">
+            <div class="header-content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="image-container">
+                                <img class="img-fluid" src="images/screen/header-iphone.png" alt="alternative">
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="text-container">
+                                <h1>Nós oferecemos <span id="js-rotating"><br/>ingressos, snackbar, comodidade, tecnologia</span></h1>
+                                <p class="p-large">Tudo isso pensando na agilidade, rapidez e comodidade. Feito pensado em você, que não quer mais gastar horas em filas.</p>
+                                <a class="btn-solid-lg page-scroll" href="#your-link"><i class="fab fa-apple"></i>APP STORE</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header> 
+        <!-- Features -->
+        <!-- Details 1 -->
+        <div id="details" class="basic-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="images/screen/details-1-iphone.png" alt="alternative">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <h3>Pra quê?</h3>
+                            <p>Esqueça a entediante tarefa de esperar pra comprar seu ingresso. Economize tempo e chegue no cinema 5 minutos antes da sessão!</p>
+                            <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-1">DESCUBRA +</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Details 2 -->
+        <div class="basic-3">
+            <div class="second">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="text-container">
+                                <h3>Só ingressos de cinema?</h3>
+                                <p>Não! Você também pode fazer seu pedido do snack e retirar na loja :)</p>
+                                <a class="btn-solid-reg popup-with-move-anim" href="#details-lightbox-2">DESCUBRA +</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <img class="img-fluid" src="images/screen/details-2-iphone.png" alt="alternative">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Details and Lightboxes -->
+        <div id="details-lightbox-1" class="lightbox-basic zoom-anim-dialog mfp-hide">
+            <div class="row">
+                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/screen/screenshot-2.png" alt="alternative">
+                </div>
+                <div class="col-lg-6">
+                    <h3>Facilidade</h3>
+                    <hr>
+                    <p>O quão comodo comprar ingressos pode ser? Sejam eles para o cinema, sejam para o snack. "Cortar a fila" ficou facinho. </p>
+                    <table>
+                        <tr><td class="icon-cell"><i class="fas fa-money-bill-wave-alt"></i></td><td>Pague do jeito que quiser.</td></tr>
+                        <tr><td class="icon-cell"><i class="fas fa-theater-masks"></i></td><td>Filmes em cartaz.</td></tr>
+                        <tr><td class="icon-cell"><i class="fas fa-user-friends"></i></td><td>Compre quantos ingressos seu dinheiro puder pagar.</td></tr>
+                        <tr><td class="icon-cell"><i class="fas fa-window-close"></i></td><td>Cancele se precisar.</td></tr>
+                        <tr><td class="icon-cell"><i class="fas fa-bullhorn"></i></i></td><td>Seja avisado 30 minutos antes do filme <i class="far fa-smile-wink"></i></td></tr>
+                        <tr><td class="icon-cell"><i class="fas fa-kiss-beam"></i></td><td>Interface moderna e amigável</td></tr>
+                    </table>
+                   <a class="btn-outline-reg mfp-close as-button" href="#DETALHES">Voltar</a> 
+                </div>
+            </div>
+        </div>
+        <!-- Lightbox -->
+        <div id="details-lightbox-2" class="lightbox-basic zoom-anim-dialog mfp-hide">
+            <div class="row">
+                <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
+                <div class="col-lg-6">
+                    <img class="img-fluid" src="images/screen/screenshot-3.png" alt="alternative">
+                </div>
+                <div class="col-lg-6">
+                    <h3>Snackbar</h3>
+                    <hr>
+                    <p>Você pode comprar os alimentos que irá consumir durante a sessão diretamente do aplicativo!</p>
+                    <h4>Parceiros</h4>
+                    <p>Através dos restaurantes parceiros - que estão próximos ao cinema - você consegue comprar o que irá consumir!</p>
+                    <table>
+                        <tr><td class="icon-cell"><i class="fas fa-hamburger"></i></i></td><td>Hambúrguer</td></tr>
+                        <tr><td class="icon-cell"><i class="fas fa-ice-cream"></i></td><td>Sorvetes</td></tr>
+                        <tr><td class="icon-cell"><i class="fas fa-pizza-slice"></i></td><td>Comidas no Geral</td></tr>
+                        <tr><td class="icon-cell"><i class="fab fa-bitbucket"></i></td><td>Pipoca</td></tr>
+                        <tr><td class="icon-cell"><i class="fas fa-beer"></i></td><td>Refrigerantes e Bebidas</td></tr>
+                    </table>
+                    <a class="btn-outline-reg mfp-close as-button" href="#details">Voltar</a>
+                </div>
+            </div>
+        </div>
+        <!-- Screenshots -->
+        <div class="slider-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <!-- Image Slider -->
+                        <div class="slider-container">
+                            <div class="swiper-container image-slider">
+                                <div class="swiper-wrapper">
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <a href="images/screen/screenshot-1.png" class="popup-link" data-effect="fadeIn">
+                                            <img class="img-fluid" src="images/screen/screenshot-1.png" alt="alternative">
+                                        </a>
+                                    </div>                               
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <a href="images/screen/screenshot-2.png" class="popup-link" data-effect="fadeIn">
+                                            <img class="img-fluid" src="images/screen/screenshot-2.png" alt="alternative">
+                                        </a>
+                                    </div>
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <a href="images/screen/screenshot-3.png" class="popup-link" data-effect="fadeIn">
+                                            <img class="img-fluid" src="images/screen/screenshot-3.png" alt="alternative">
+                                        </a>
+                                    </div>
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <a href="images/screen/screenshot-4.png" class="popup-link" data-effect="fadeIn">
+                                            <img class="img-fluid" src="images/screen/screenshot-4.png" alt="alternative">
+                                        </a>
+                                    </div>
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <a href="images/screen/screenshot-5.png" class="popup-link" data-effect="fadeIn">
+                                            <img class="img-fluid" src="images/screen/screenshot-5.png" alt="alternative">
+                                        </a>
+                                    </div>                              
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <a href="images/screen/screenshot-6.png" class="popup-link" data-effect="fadeIn">
+                                            <img class="img-fluid" src="images/screen/screenshot-6.png" alt="alternative">
+                                        </a>
+                                    </div>
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <a href="images/screen/screenshot-7.png" class="popup-link" data-effect="fadeIn">
+                                            <img class="img-fluid" src="images/screen/screenshot-7.png" alt="alternative">
+                                        </a>
+                                    </div>
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <a href="images/screen/screenshot-8.png" class="popup-link" data-effect="fadeIn">
+                                            <img class="img-fluid" src="images/screen/screenshot-8.png" alt="alternative">
+                                        </a>
+                                    </div>
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <a href="images/screen/screenshot-9.png" class="popup-link" data-effect="fadeIn">
+                                            <img class="img-fluid" src="images/screen/screenshot-9.png" alt="alternative">
+                                        </a>
+                                    </div>
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <a href="images/screen/screenshot-10.png" class="popup-link" data-effect="fadeIn">
+                                            <img class="img-fluid" src="images/screen/screenshot-10.png" alt="alternative">
+                                        </a>
+                                    </div>                               
+                                </div>
+                                <!-- Add Arrows -->
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Download -->
+        <div class="basic-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-xl-5">
+                        <div class="text-container">
+                            <h2>Experimente o Cinecstasy</h2>
+                            <p class="p-large">Esqueça a tarefa ardua de esperar em filas e tenha seus ingressos na palma da mão!</p>
+                            <a class="btn-solid-lg" href="#your-link"><i class="fab fa-apple"></i>APP STORE</a>
+                            <a class="btn-solid-lg" href="#your-link"><i class="fab fa-google-play"></i>PLAY STORE</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-xl-7">
+                        <div class="image-container">
+                            <img class="img-fluid" src="images/screen/download.png" alt="alternative">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section id="contact">
+            <footer class="site-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6">
+                            <h6>2021</h6>
+                            <p class="text-justify"> "A vida é um grande lençol de elástico, quando você ajeita de um lado, ela solta de outro." - <spam id="spam_footer">Carrara</spam>, <spam id="spam_footer">Agostinho</spam></p>
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <h6>GRUPO</h6>
+                            <img src="images/essentials/logo.svg" alt="" class="img-footer">
+                        </div>
+                        <div class="col-xs-6 col-md-3">
+                            <h6>ACESSO RÁPIDO</h6>
+                            <ul class="footer-links">
+                                <li><a href="https://confiadesign.com/"><img src="images/essentials/logo-confiad.svg" alt="" class="img-footer"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <p class="copyright-text">Powered by Confia Design | Copyright &copy; 2021 <br> Direitos reservados por Cinecstasy. </p>
+                    </div>
+                </div>
+            </footer>
+        </section> 
+        <!-- Scripts -->
+        <script src="js/frameworks/jquery.min.js"></script> 
+        <script src="js/frameworks/bootstrap.min.js"></script> 
+        <script src="js/frameworks/jquery.easing.min.js"></script>
+        <script src="js/frameworks/swiper.min.js"></script>
+        <script src="js/frameworks/jquery.magnific-popup.js"></script>
+        <script src="js/frameworks/morphext.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
