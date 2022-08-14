@@ -47,32 +47,18 @@ logo.addEventListener('click', ()=>{
     
 })
 
-
-let theme
-    theme = localStorage.getItem('theme')
-if(theme == undefined){
-    localStorage.setItem('theme', '')
-} else {
-    console.log(theme.value)
-    switch (theme) {
-        case 'dark':
-            body.classList.add('dark')
-            break;
-        case '':
-            body.classList.remove('dark')
-        default:
-            body.classList.remove('dark')
-            break;
-    }
-}
-
 modeSwitch.addEventListener("click" , () =>{
     body.classList.toggle("dark");
-    if(body.classList.contains('dark')) {
-        localStorage.setItem('theme', 'dark')
+    
+    if(body.classList.contains("dark")){
         modeText.innerText = "Light Theme";
-    } else {
-        localStorage.setItem('theme', '')
+    }else{
         modeText.innerText = "Dark Theme";
+        
     }
-})
+});
+
+// easter egg 
+
+
+console.log(modeSwitch.value)
