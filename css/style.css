@@ -21,6 +21,28 @@ a {
   transition: all 0.5s ease-in-out;
 }
 
+/* Scrollbar */
+
+::-webkit-scrollbar {
+  width: .75rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #181a1b; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255, .1);
+  max-height: 5vh !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(44, 44, 44)a1b; 
+}
+
 /*
 
 FOOTER
@@ -209,8 +231,7 @@ FOOTER
 }
 
 .img-footer {
-  width: 240px;
-  height: 60px;
+  width: 140px;
 }
 
 .spam_footer, #spam_footer {
@@ -571,6 +592,29 @@ a:hover {
 
 /* Back to top button */
 
+.whatsapp-float {
+  position: fixed;
+  background: #0ec143;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  line-height: 1;
+  font-size: 26px;
+  border-radius: 50%;
+  bottom: 15px;
+  right: 15px;
+  z-index: 12;
+}
+
+.whatsapp-float, .whatsapp-float i:hover {
+  color: white !important;
+}
+
+
 .back-to-top {
   position: fixed;
   display: none;
@@ -580,10 +624,10 @@ a:hover {
   height: 44px;
   text-align: center;
   line-height: 1;
+  bottom: calc(15px * 2 + 44px);
   font-size: 16px;
   border-radius: 50%;
   right: 15px;
-  bottom: 15px;
   transition: background 0.5s;
   z-index: 11;
 }
@@ -723,7 +767,8 @@ a:hover {
 
 .navbar-b.navbar-reduce {
   transition: all .5s ease-in-out;
-  background-color: #000;
+  background-color: rgba(0,0,0,.75);
+  backdrop-filter: blur(2.5px);
   padding-top: 15px;
   padding-bottom: 15px;
 }
@@ -1327,6 +1372,6 @@ footer .credits a {
 
 @media (max-width: 768px) {
   .back-to-top {
-    bottom: 15px;
+    transition: all .5s;
   }
 }

@@ -47,7 +47,6 @@ logo.addEventListener('click', ()=>{
     
 })
 
-
 let theme
     theme = localStorage.getItem('theme')
 if(theme == undefined){
