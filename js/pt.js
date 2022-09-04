@@ -7,7 +7,7 @@ const pt = {
     texts: {
         txt0: 'início',
         txt1: 'serviços',
-        txt2: 'portfolio',
+        txt2: 'portfólio',
         txt3: 'contato',
         txt4: 'UI/UX',
         txt5: 'Nós prototipamos o seu site para que ele atenda os seus clientes da maneira mais satisfatória possível.',
@@ -26,7 +26,11 @@ const pt = {
         txt18: 'Joyce Brothers',
         txt19: 'acesso rápido',
         txt20: 'contrate-nos',
-        txt21: 'inicio'
+        txt21: 'inicio',
+        txt22: 'Todos os direitos reservados por Confia Design.',
+        txt23: 'Feito com',
+        txt24: 'por',
+        txt25: 'serviços'
     }
 }
 

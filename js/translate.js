@@ -30,11 +30,16 @@ let txt0 = document.getElementById('txt0'),
     txt18 = document.getElementById('txt18'),
     txt19 = document.getElementById('txt19'),
     txt20 = document.getElementById('txt20'),
-    txt21 = document.getElementById('txt21')
+    txt21 = document.getElementById('txt21'),
+    txt22 = document.getElementById('txt22'),
+    txt23 = document.getElementById('txt23'),
+    txt24 = document.getElementById('txt24'),
+    txt25 = document.getElementById('txt25')
 
 // // Arrays
 let links = [linkedinLink, whatsLink, instagramLink],
-    texts = [txt0, txt1, txt2, txt3, txt4, txt5, txt6, txt7, txt8, txt9, txt10, txt11, txt12, txt13, txt14, txt15, txt16, txt16, txt17, txt18, txt19, txt20, txt21]
+    texts = [txt0, txt1, txt2, txt3, txt4, txt5, txt6, txt7, txt8, txt9, txt10, txt11, txt12, txt13, txt14, txt15, txt16, txt16, txt17, txt18, txt19, txt20, txt21, txt22,
+     txt23, txt24, txt25]
 
 
 toggleLang.forEach(e => {

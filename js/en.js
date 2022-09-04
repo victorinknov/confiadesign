@@ -9,8 +9,8 @@ const en = {
         txt1: 'services',
         txt2: 'portfolio',
         txt3: 'contact',
-        txt4: 'Web Development',
-        txt5: 'we work with prototyping and creating websites and web pages',
+        txt4: 'ui/ux',
+        txt5: 'We prototype your website so that it serves your customers in the most satisfying way possible.',
         txt6: 'Development',
         txt7: `We develop your project on the web. Whether it's a landing page to attract leads, institutional website or management system.`,
         txt8: 'Out of the box',
@@ -26,7 +26,11 @@ const en = {
         txt18: 'Joyce Brothers',
         txt19: 'quickly access',
         txt20: 'hire us',
-        txt21: 'home'
+        txt21: 'home',
+        txt22: 'All rights reserved by Confia Design.',
+        txt23: 'Made with',
+        txt24: 'by',
+        txt25: 'services'
     }
 }
 
