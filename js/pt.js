@@ -1,7 +1,7 @@
 const pt = {
     links: {
         linkedinLink: `https://linkedin.com/in/confia-design/`,
-        whatsLink: `https://wa.me/send?phone=5511960687340?text=Ol%C3%A1!%20Tenho%20interesse%20nos%20servi%C3%A7os%2C%20pode%20me%20passar%20um%20or%C3%A7amento%3F`,
+        whatsLink: `https://api.whatsapp.com/send?phone=5511960687340&text=Ol%C3%A1!%20Tenho%20interesse%20nos%20servi%C3%A7os%2C%20poderia%20me%20passar%20um%20or%C3%A7amento%3F`,
         instagramLink: `https://instagram.com/confiadesign`
     },
     texts: {
