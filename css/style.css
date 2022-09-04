@@ -3,6 +3,10 @@ body {
   color: #fff;
   font-family: 'Montserrat', sans-serif;
 }
+
+:root {
+  --teste: #019cde;
+}
 #div-auto {
 min-height:1000px;
 height:auto !important;
@@ -530,8 +534,10 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #019cde;
-  display: block;
+  box-shadow: 0 0 0 10px var(--teste);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /*------/ Owl Carousel /------*/
@@ -1005,6 +1011,9 @@ a:hover {
 }
 
 .service-box .service-ico {
+  display: flex;
+  align-items: center;
+  text-justify: left !important;
   margin-bottom: 1rem;
   color: #e8e6e3;
 }
@@ -1026,6 +1035,10 @@ a:hover {
   color: #c0c0c0;
 }
 
+.s-description {
+  text-align: center !important;
+}
+
 /*======================================
 //--//-->   COUNTER
 ======================================*/
@@ -1043,7 +1056,7 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.8;
-  box-shadow: 0 0 0 10px #fff;
+  box-shadow: 0 0 0 10px transparent;
 }
 
 .counter-num .counter {
@@ -1078,6 +1091,7 @@ a:hover {
 
 .work-content {
   padding: 2rem 3% 1rem 4%;
+  border-radius: 0 0 .4rem .4rem;
 }
 
 .work-content .w-more {
@@ -1105,6 +1119,10 @@ a:hover {
 
 .w-title {
   font-size: 1.2rem;
+}
+
+.work-img, .work-box {
+  border-radius: .8rem .8rem .4rem .4rem;
 }
 
 /*------/ Sidebar /------*/
