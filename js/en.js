@@ -16,7 +16,7 @@ const en = {
         txt8: 'Out of the box',
         txt9: `We'll take your project out of the box. Giving a new face to your existing project or putting it on the air is our goal.`,
         txt10: 'our retrospect',
-        txt11: 'complete jobs',
+        txt11: 'projects delivered',
         txt12: 'years of experience',
         txt13: 'costumers',
         txt14: 'human reached',

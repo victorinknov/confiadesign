@@ -16,7 +16,7 @@ const pt = {
         txt8: 'Tiramos da caixa',
         txt9: `Nós tiraremos o seu projeto da caixa. Dar uma cara nova ao seu projeto existente ou colocá-lo no ar é a nossa meta.`,
         txt10: 'nosso retrospecto',
-        txt11: 'trampos completos',
+        txt11: 'projetos entregues',
         txt12: 'anos de experiência',
         txt13: 'clientes',
         txt14: 'humanos alcançados',
