@@ -19,7 +19,7 @@ const en = {
         txt11: 'projects delivered',
         txt12: 'years of experience',
         txt13: 'costumers',
-        txt14: 'human reached',
+        txt14: 'monthly visits',
         txt15: 'portfolio',
         txt16: '"The best proof of love is trust."',
         txt17: 'by',

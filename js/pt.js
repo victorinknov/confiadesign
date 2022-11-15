@@ -19,7 +19,7 @@ const pt = {
         txt11: 'projetos entregues',
         txt12: 'anos de experiência',
         txt13: 'clientes',
-        txt14: 'humanos alcançados',
+        txt14: 'visitas mensais',
         txt15: 'portfolio',
         txt16: '"A melhor prova de amor é a confiança."',
         txt17: 'por',
