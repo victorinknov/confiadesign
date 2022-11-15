@@ -490,17 +490,9 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #019cde;
   transition: all 500ms ease;
-  color: #019cde;
 }
 
-.socials .ico-circle:hover {
-  background-color: #019cde;
-  color: #fff;
-  box-shadow: 0 0 0 3px #000;
-  transition: all 500ms ease;
-}
 
 /*------/ Ul resect /------*/
 
@@ -535,10 +527,14 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px var(--teste);
+  box-shadow: 0 0 0 10px rgba(240, 240, 240, .1);
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.ico-circle i {
+  color: rgba(240, 240, 240, .75);
 }
 
 /*------/ Owl Carousel /------*/
@@ -1026,7 +1022,6 @@ a:hover {
 
 .service-box .s-title {
   font-size: 1.4rem;
-  text-transform: lowercase;
   text-align: center;
   padding: .4rem 0;
   color :#fcfcfc;
