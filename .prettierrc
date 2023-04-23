@@ -1,0 +1,12 @@
+{
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "semi": true,
+    "singleQuote": false,
+    "printWidth": 156,
+    "endOfLine": "lf",
+    "proseWrap": "preserve",
+    "htmlWhitespaceSensitivity": "css",
+    "author": "@victorinknov",
+    "comments": "Consider use this configuration instead yours. PrintWidth are based on 1920x1080/16:9 using 16px as font-size."
+}
